@@ -1,0 +1,83 @@
+/* General Styles */
+header {
+  background-color: #DCDCDC;
+  color: #333;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  background-color: #f0f0f0;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 400px;
+  margin: 0 20px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 10px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* User Actions */
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions button {
+  background: none;
+  border: none;
+  color: #FF0000;
+  margin-left: 40px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.user-actions i {
+  margin-right: 5px;
+}
+
+.user-actions select {
+  background-color: #f58220;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

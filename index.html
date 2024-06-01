@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Sách</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css\head.css">
+  <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+
+  <!---Header-->
+  <header>
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="img\head-foot\logo.jpg" alt="Logo">
+      </a>
+      <form class="search-bar">
+        <input type="text" placeholder="Cập nhật những gì bạn tìm kiếm">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <div class="user-actions">
+        <button><i class="fas fa-bell"></i> Thông báo</button>
+        <button><i class="fas fa-shopping-cart"></i> Giỏ hàng</button>
+        <button><i class="fas fa-user"></i> Tài khoản</button>
+        <select>
+          <option value="vi">Tiếng Việt</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!---Category-->
+  <div class="category-container">
+    <div class="product-category">
+      <h2><i class="fa-solid fa-border-all category-icon"></i> Danh mục sản phẩm</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="img\index\Category\Vanhoc.jpg" alt="Văn học">
+          <p>Văn học</p>
+        </div>
+        <div class="product-item">
+          <img src="img\index\Category\Kinhte.jpg" alt="Kinh tế">
+          <p>Kinh tế</p>
+        </div>
+        <div class="product-item">
+          <img src="img\index\Category\Tamlykns.jpg" alt="Tâm lý - Kỹ năng sống">
+          <p>Tâm lý - Kỹ năng sống</p>
+        </div>
+        <div class="product-item">
+          <img src="img\index\Category\Nuoidaycon.jpg" alt="Nuôi dạy con">
+          <p>Nuôi dạy con</p>
+        </div>
+        <div class="product-item">
+          <img src="img\index\Category\SGKthamkhao.jpg" alt="Sách giáo khoa - Tham khảo">
+          <p>Sách giáo khoa - Tham khảo</p>
+        </div>
+        <div class="product-item">
+          <img src="img\index\Category\Sachngoaingu.jpg" alt="Sách học ngoại ngữ">
+          <p>Sách học ngoại ngữ</p>
+        </div>
+        <div class="product-item">
+          <img src="img\index\Category\Sachnuocngoai.jpg" alt="Sách nước ngoài">
+          <p>Sách nước ngoài</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---Trending-->
+  <div class="trending-container">
+    <div class="trending-products">
+      <h2>Xu Hướng Mua Sắm</h2>
+      <ul class="product-tabs">
+        <li class="tab active">Xu Hướng Hôm Nay</li>
+        <li class="tab">Hot Deals</li>
+        <li class="tab">Foreign Bestsellers</li>
+        <li class="tab">Coming Soon</li>
+        <li class="tab">Learn English</li>
+      </ul>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="images/book2.jpg" alt="Từng Bước Nở Hoa Sen">
+          <div class="discount-tag">-20%</div>
+          <p class="product-title">Từng Bước Nở Hoa Sen (Tái Bản 2024)</p>
+          <p class="old-price">98.000 ₫</p>
+          <p class="new-price">78.400 ₫</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-item">
+          <img src="images/book1.jpg" alt="Từng Bước Nở Hoa Sen (Tái bản lần thứ 6)">
+          <div class="discount-tag">-20%</div>
+          <p class="product-title">Từng Bước Nở Hoa Sen (Tái bản lần thứ 6)</p>
+          <p class="old-price">140.000 ₫</p>
+          <p class="new-price">112.000 ₫</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <button class="view-more">View More</button>
+    </div>
+  </div>
